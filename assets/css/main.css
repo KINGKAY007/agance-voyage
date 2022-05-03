@@ -2633,3 +2633,121 @@ ol {
 .footer .copyright-area p a:hover {
   color: #2ed06e;
 }
+
+
+
+.about-section .about-img img {
+  width: 100%;
+}
+
+.about-section .accordion .single-faq {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 35px #f2f4f9;
+}
+
+.about-section .accordion .single-faq button {
+  padding: 20px 30px 15px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #313450;
+  position: relative;
+}
+
+.about-section .accordion .single-faq button::after {
+  content: "\eb2c";
+  font: normal normal normal 1em/1 "LineIcons";
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-out 0s;
+}
+
+.about-section .accordion .single-faq button.collapsed::after {
+  content: "\eb53";
+}
+
+.about-section .accordion .single-faq .faq-content {
+  padding: 0 30px;
+  padding-bottom: 20px;
+}
+
+
+
+.service-section {
+  background-color: hwb(142 80% 0%);
+}
+
+.service-section .single-service {
+  text-align: center;
+  padding: 50px 30px;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.service-section .single-service:hover .icon {
+  color: #fff;
+}
+
+.service-section .single-service:hover .icon.color-1 {
+  background: #FB32FB;
+}
+
+.service-section .single-service:hover .icon.color-2 {
+  background: #4E6EF1;
+}
+
+.service-section .single-service:hover .icon.color-3 {
+  background: #FF3B3B;
+}
+
+.service-section .single-service:hover .icon.color-4 {
+  background: #5A37FF;
+}
+
+.service-section .single-service .icon {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #313450;
+  transition: all 0.3s ease-out 0s;
+}
+
+.service-section .single-service .icon.color-1 {
+  background: #FFEFFF;
+}
+
+.service-section .single-service .icon.color-2 {
+  background: #E4E9FF;
+}
+
+.service-section .single-service .icon.color-3 {
+  background: #FFEAEA;
+}
+
+.service-section .single-service .icon.color-4 {
+  background: #ECE8FF;
+}
+
+.service-section .single-service .content h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.erick{
+  text-align: center;
+  position: relative;
+}
+.king{
+  font-size: 10px;
+}
